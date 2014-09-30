@@ -1,0 +1,39 @@
+<PG ID="C7388CCE-7E7A-4DB2-A6AC-AB4201920AF7" Type="0" UsesTemplatePage="0" TemplatePageID="00000000-0000-0000-0000-100000000001" Nm="Page1" BgClr="ffffff" BgTparent="0" BgPicName="" DefFoc="00000000-0000-0000-0000-100000000001" SldEffect="0" SldEase="0" Blr="0" ShwStatusBar="0" EnableTabBar="0" LockOrientation="0" PageOrientation="0" IsTemplatePage="0" IsSplashScreen="0" ShwNavigationBar="0" ShwActionBar="0" TouchEnabled="1">
+	<EDGE X="0" Y="0" W="640" H="1136" />
+	<POS Pos="3" SMode="32" />
+	<BODY>
+		<CONTAINER ID="FF0917A4-0B54-4323-A696-CA0FF18BA548" Nm="Container2" Vsb="1" TouchEnabled="1" AutoSize="0">
+			<LCT X="0%" Y="0%" W="1000%" H="77%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<Layout LayoutType="0" LayoutOrientation="0" LayoutAlignment="0" LayoutHorizontalGap="-1" LayoutVerticalGap="-1" />
+			<STYLE BrClr="313031" BrW="1" BgTparent="1" BgClr="eff3ef" />
+			<ITEMS>
+				<BTN ID="DEB2AE6B-CB4B-4678-8EF8-2657F539C534" Nm="TextButton2" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="2" PxlEdg="3" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0">
+					<LCT X="594%" Y="239%" W="375%" H="645%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<FONT FName="Default" FSize="8p" FColor="000000" PressedFColor="ffffff" FStyle="0" Undrln="0" />
+					<STYLE BgClr="b5ba27" PressedBgClr="000000" HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+					<DATA>
+						<PRM Nm="Bind" Val="&quot;crop&quot;" />
+					</DATA>
+				</BTN>
+			</ITEMS>
+		</CONTAINER>
+		<CONTAINER ID="9ED6F1F1-9964-4542-A927-6CE06FEF27D2" Nm="Container1" Vsb="1" TouchEnabled="1" AutoSize="0">
+			<LCT X="0%" Y="77%" W="1000%" H="923%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<Layout LayoutType="0" LayoutOrientation="0" LayoutAlignment="0" LayoutHorizontalGap="-1" LayoutVerticalGap="-1" />
+			<STYLE BrClr="313031" BrW="0" BgTparent="0" BgClr="eff3ef" />
+		</CONTAINER>
+		<BTN ID="649C7C78-BF43-49A3-9729-C66B2F55944D" Nm="TextButton1" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="2" PxlEdg="3" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0">
+			<LCT X="125%" Y="450%" W="750%" H="100%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<FONT FName="Default" FSize="8p" FColor="000000" PressedFColor="ffffff" FStyle="0" Undrln="0" />
+			<STYLE BgClr="b5ba27" PressedBgClr="000000" HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+			<DATA>
+				<PRM Nm="Bind" Val="&quot;Camera&quot;" />
+			</DATA>
+			<ONPRESSED script="Page1_TextButton1_OnPressed(e);" />
+		</BTN>
+	</BODY>
+	<EVENTS>
+		<ONSHOW script="Page1_Self_OnShow(e);" />
+		<ONKEYP script="Page1_Self_OnKeyPress(e);" />
+	</EVENTS>
+</PG>

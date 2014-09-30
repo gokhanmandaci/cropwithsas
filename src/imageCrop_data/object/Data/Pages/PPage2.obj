@@ -1,0 +1,117 @@
+<PG ID="706982AE-FEEF-4955-BC10-0837F638656C" Type="0" UsesTemplatePage="0" TemplatePageID="00000000-0000-0000-0000-100000000001" Nm="Page2" BgClr="ffffff" BgTparent="0" BgPicName="" DefFoc="00000000-0000-0000-0000-100000000001" SldEffect="0" SldEase="0" Blr="0" ShwStatusBar="0" EnableTabBar="0" LockOrientation="0" PageOrientation="0" IsTemplatePage="0" IsSplashScreen="0" ShwNavigationBar="0" ShwActionBar="0" TouchEnabled="1">
+	<EDGE X="0" Y="0" W="640" H="1136" />
+	<POS Pos="3" SMode="32" />
+	<BODY>
+		<CONTAINER ID="6ADB1D8F-64C6-4379-B6EC-E13589F3E810" Nm="CopyofContainer1" Vsb="1" TouchEnabled="1" AutoSize="0">
+			<LCT X="0%" Y="0%" W="1000%" H="77%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<Layout LayoutType="0" LayoutOrientation="0" LayoutAlignment="0" LayoutHorizontalGap="-1" LayoutVerticalGap="-1" />
+			<STYLE BrClr="313031" BrW="0" BgTparent="0" BgClr="eff3ef" />
+			<ITEMS>
+				<BTN ID="0BB1B313-6577-4B32-8F0E-541059F13532" Nm="TextButton2" Vsb="1" Alpha="100" Enb="1" TouchEnabled="1" Type="2" PxlEdg="3" ShwShdw="0" ShdwXOffset="0" ShdwYOffset="0" ShdwClr="0">
+					<LCT X="594%" Y="239%" W="375%" H="645%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<FONT FName="Default" FSize="8p" FColor="000000" PressedFColor="ffffff" FStyle="0" Undrln="0" />
+					<STYLE BgClr="b5ba27" PressedBgClr="000000" HTAlgn="1" VTAlgn="1" TxtDir="0" HorizontalGapValue="0" />
+					<DATA>
+						<PRM Nm="Bind" Val="&quot;crop&quot;" />
+					</DATA>
+					<ONPRESSED script="Page2_TextButton2_OnPressed(e);" />
+				</BTN>
+			</ITEMS>
+		</CONTAINER>
+		<CONTAINER ID="6158E5A5-C724-4CF3-92E9-17B03D064E30" Nm="Container1" Vsb="1" TouchEnabled="1" AutoSize="0">
+			<LCT X="0%" Y="79%" W="1000%" H="921%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<Layout LayoutType="0" LayoutOrientation="0" LayoutAlignment="0" LayoutHorizontalGap="-1" LayoutVerticalGap="-1" />
+			<STYLE BrClr="313031" BrW="1" BgTparent="1" BgClr="eff3ef" />
+			<ITEMS>
+				<CANVAS ID="052DEAB5-88B0-4E46-8424-3DA7EA227BC2" Nm="Canvas1" Vsb="1" TouchEnabled="1" LoopPeriod="50" LoopEnabled="1">
+					<LCT X="0%" Y="0%" W="1000%" H="1000%" Z="0" Anc="3" />
+					<ONTOUCHMOVE script="Page2_Canvas1_OnTouchMove(e);" />
+				</CANVAS>
+				<PIC ID="52DAE908-C143-497A-9D1F-3D3D95EFDDFA" Nm="ImageToCrop" Vsb="1" Alpha="100" TouchEnabled="0">
+					<LCT X="50%" Y="0%" W="900%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<POS Pos="3" SMode="64" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+					<DATA>
+						<PRM Nm="Bind" Val="" />
+					</DATA>
+				</PIC>
+				<RECT ID="259AFD74-331B-4C87-8C52-55F93F17725B" Nm="RectangleA" Vsb="1" Alpha="50" TouchEnabled="0" Clr="000000" BrW="0" Fill="1" BrClr="666666" PxlEdg="0">
+					<LCT X="0%" Y="0%" W="1000%" H="125%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<ROT Angle="0" />
+					<GRAD FillGrad="0" GSColor="666666" GEColor="000000" GOrientation="0" />
+				</RECT>
+				<RECT ID="2BC3C37E-3636-4620-B85C-AB21CADD254E" Nm="RectangleB" Vsb="1" Alpha="50" TouchEnabled="0" Clr="000000" BrW="0" Fill="1" BrClr="666666" PxlEdg="0">
+					<LCT X="0%" Y="238%" W="1000%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<ROT Angle="0" />
+					<GRAD FillGrad="0" GSColor="666666" GEColor="000000" GOrientation="0" />
+				</RECT>
+				<RECT ID="36E1B88B-198B-4D46-9D96-47E669A1FACF" Nm="RectangleC" Vsb="1" Alpha="50" TouchEnabled="0" Clr="000000" BrW="0" Fill="1" BrClr="666666" PxlEdg="0">
+					<LCT X="0%" Y="109" W="80" H="125%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<ROT Angle="0" />
+					<GRAD FillGrad="0" GSColor="666666" GEColor="000000" GOrientation="0" />
+				</RECT>
+				<RECT ID="CA668BD3-7FCB-47C9-BC35-5185041204AE" Nm="RectangleD" Vsb="1" Alpha="50" TouchEnabled="0" Clr="000000" BrW="0" Fill="1" BrClr="666666" PxlEdg="0">
+					<LCT X="800%" Y="114" W="1000%" H="125%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<ROT Angle="0" />
+					<GRAD FillGrad="0" GSColor="666666" GEColor="000000" GOrientation="0" />
+				</RECT>
+				<RECT ID="C3FA2E8C-40D6-4AA3-8CBD-2BCFEB55DC24" Nm="Rectangle1" Vsb="0" Alpha="100" TouchEnabled="0" Clr="ffffff" BrW="1" Fill="1" BrClr="666666" PxlEdg="3">
+					<LCT X="77" Y="313" W="30" H="30" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<ROT Angle="0" />
+					<GRAD FillGrad="0" GSColor="666666" GEColor="000000" GOrientation="0" />
+				</RECT>
+				<RECT ID="632D08C2-F401-4D43-9403-3827D52388A4" Nm="Rectangle2" Vsb="0" Alpha="100" TouchEnabled="0" Clr="ffffff" BrW="1" Fill="1" BrClr="666666" PxlEdg="3">
+					<LCT X="82" Y="318" W="30" H="30" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<ROT Angle="0" />
+					<GRAD FillGrad="0" GSColor="666666" GEColor="000000" GOrientation="0" />
+				</RECT>
+				<RECT ID="E8808463-B4D5-4D05-9E51-AC44CAA3E4A6" Nm="Rectangle3" Vsb="0" Alpha="100" TouchEnabled="0" Clr="ffffff" BrW="1" Fill="1" BrClr="666666" PxlEdg="3">
+					<LCT X="87" Y="323" W="30" H="30" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<ROT Angle="0" />
+					<GRAD FillGrad="0" GSColor="666666" GEColor="000000" GOrientation="0" />
+				</RECT>
+				<RECT ID="6A5E1691-066B-44B9-8FFD-83EAC879750C" Nm="Rectangle4" Vsb="0" Alpha="100" TouchEnabled="0" Clr="ffffff" BrW="1" Fill="1" BrClr="666666" PxlEdg="3">
+					<LCT X="92" Y="328" W="30" H="30" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<ROT Angle="0" />
+					<GRAD FillGrad="0" GSColor="666666" GEColor="000000" GOrientation="0" />
+				</RECT>
+				<PIC ID="FF2C3FF9-DD0B-4B1E-A0A8-381B5D60B631" Nm="Image1" Vsb="1" Alpha="100" TouchEnabled="0">
+					<LCT X="77" Y="313" W="15" H="15" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<POS Pos="15" SMode="64" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+					<DATA>
+						<PRM Nm="Bind" Val="resources://sag-alt.png" />
+					</DATA>
+				</PIC>
+				<PIC ID="55747C0A-7100-4B86-9A98-26FB5CACEB5B" Nm="Image2" Vsb="1" Alpha="100" TouchEnabled="0">
+					<LCT X="82" Y="318" W="15" H="15" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<POS Pos="15" SMode="64" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+					<DATA>
+						<PRM Nm="Bind" Val="resources://sol-ust.png" />
+					</DATA>
+				</PIC>
+				<PIC ID="064F3D41-5ED0-4E35-B129-D5B1B6BEEB64" Nm="Image3" Vsb="1" Alpha="100" TouchEnabled="0">
+					<LCT X="87" Y="323" W="15" H="15" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<POS Pos="15" SMode="64" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+					<DATA>
+						<PRM Nm="Bind" Val="resources://sag-ust.png" />
+					</DATA>
+				</PIC>
+				<PIC ID="9E77CEA7-B048-4B41-94DA-B25A63932465" Nm="Image4" Vsb="1" Alpha="100" TouchEnabled="0">
+					<LCT X="92" Y="328" W="15" H="15" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<POS Pos="15" SMode="64" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+					<DATA>
+						<PRM Nm="Bind" Val="resources://sol-alt.png" />
+					</DATA>
+				</PIC>
+				<RECT ID="B8E31C19-3CD6-460F-9DAF-DCCF7F122484" Nm="CropRectangle" Vsb="1" Alpha="100" TouchEnabled="0" Clr="c0c0c0" BrW="2" Fill="0" BrClr="0000ff" PxlEdg="0">
+					<LCT X="250%" Y="400%" W="500%" H="250%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+					<ROT Angle="0" />
+					<GRAD FillGrad="0" GSColor="666666" GEColor="000000" GOrientation="0" />
+				</RECT>
+			</ITEMS>
+		</CONTAINER>
+	</BODY>
+	<EVENTS>
+		<ONSHOW script="Page2_Self_OnShow(e);" />
+		<ONKEYP script="Page2_Self_OnKeyPress(e);" />
+	</EVENTS>
+</PG>

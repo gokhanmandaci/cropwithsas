@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DeviceProfiles>
+	<iOS>
+		<Device Name="iPhone 3" Width="320" Height="480"  Dpi ="163" ScreenShortCut="Y" StatusBarHeight="20" NavigationBarHeight="44" ActionBarHeight="44" isRetina="false" OSVersion="6.0"/>
+		<Device Name="iPhone 4" Width="640" Height="960" Dpi ="326"  ScreenShortCut="Y" StatusBarHeight="40" NavigationBarHeight="44" ActionBarHeight="44" isRetina="true" OSVersion="7.1"/>
+		<Device Name="iPhone 5" Width="640" Height="1136" Dpi ="326" ScreenShortCut="Y" StatusBarHeight="20" NavigationBarHeight="44" ActionBarHeight="44" isRetina="true" OSVersion="7.1"/>
+		<Device Name="iPad" Width="1024" Height="768" Dpi ="132" ScreenShortCut="Y" StatusBarHeight="20" NavigationBarHeight="44" ActionBarHeight="44" isRetina="true" OSVersion="7.1"/>
+		<Device Name="iPad2" Width="1024" Height="768" Dpi ="132" ScreenShortCut="Y" StatusBarHeight="20" NavigationBarHeight="44" ActionBarHeight="44" isRetina="true" OSVersion="7.1"/>
+		<Device Name="iPad3" Width="2048" Height="1536" Dpi ="264" ScreenShortCut="Y" StatusBarHeight="20" NavigationBarHeight="44" ActionBarHeight="44" isRetina="true" OSVersion="7.1"/>
+		<Device Name="iPad Mini" Width="1024" Height="768" Dpi ="163" ScreenShortCut="Y" StatusBarHeight="20" NavigationBarHeight="44" ActionBarHeight="44" isRetina="true" OSVersion="7.1"/>
+	</iOS>
+	<Android>
+		<Device Name="Nexus 5" Width="1080" Height="1920" Dpi ="480" ScreenShortCut="Y" Folder="android/drawable-xhdpi" StatusBarHeight="40" NavigationBarHeight="0" ActionBarHeight="144" APILevel="9"/>
+		<Device Name="Galaxy S III" Width="720" Height="1280" Dpi ="320" ScreenShortCut="Y" Folder="android/drawable-large-mdpi" StatusBarHeight="20" NavigationBarHeight="44" ActionBarHeight="0" APILevel="9"/>
+		<Device Name="Galaxy Ace" Width="320" Height="480" Dpi ="160" ScreenShortCut="Y" Folder="android/drawable-mdpi" StatusBarHeight="20" NavigationBarHeight="44" ActionBarHeight="0" APILevel="9"/>
+		<Device Name="Galaxy Note" Width="800" Height="1280" Dpi ="320" ScreenShortCut="Y" Folder="" StatusBarHeight="20" NavigationBarHeight="44" ActionBarHeight="44" APILevel="9"/>
+		<Device Name="Galaxy Note II" Width="720" Height="1280" Dpi ="320" ScreenShortCut="Y" Folder="" StatusBarHeight="20" NavigationBarHeight="44" ActionBarHeight="44" APILevel="9"/>
+		<Device Name="Nexus S" Width="480" Height="800" Dpi ="240" ScreenShortCut="Y" Folder="" StatusBarHeight="20" NavigationBarHeight="44" ActionBarHeight="44" APILevel="9"/>
+		<Device Name="HTC Sensation XE" Width="540" Height="960" Dpi ="240" ScreenShortCut="Y" Folder="" StatusBarHeight="20" NavigationBarHeight="44" ActionBarHeight="44" APILevel="9"/>
+	</Android>
+</DeviceProfiles>

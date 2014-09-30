@@ -1,0 +1,10 @@
+<SMF xsi:schemaLocation="http://developer.smartface.biz/SAS/schema/4.1.0/sasObjects.xsd sasObjects.xsd" xmlns="http://developer.smartface.biz/SAS/schema/4.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<UI>
+		<Page id="5086CE34-3FAA-43CE-A750-D10E258C0399" name="Page3" backgroundImage="" fillColor="#ffffff" imageFillType="SMF.UI.ImageFillType.tile" imagePosition="SMF.UI.Alignment.topLeft" limitObjectsInPageBoundaries="false" lockOrientation="false" showStatusBar="false" showNavigationBar="false" showActionBar="false" touchEnabled="true" templatePageID="00000000-0000-0000-0000-100000000001">
+			<controls>
+				<Image name="Image1" id="2B553C5F-3EB0-43E0-A496-F3C18A3C4F2F" parent="00000000-0000-0000-0000-100000000001" parentMode="-1" width="100%" height="100%" left="0%" top="0%" lockAutoSize="false" lockAutoPosition="false" visible="true" touchEnabled="true" designVisible="true" imageFillType="SMF.UI.ImageFillType.aspectfit" imagePosition="SMF.UI.Alignment.center" dataSource="" image="ObjDefaultImage.png" alpha="1" anchor.left="true" anchor.top="true" anchor.right="false" anchor.bottom="false" enableScroll="false" enableCache="false" enableZoom="false" />
+			</controls>
+			<EVENTS onShow="Page3_Self_OnShow(e);" onKeyPress="Page3_Self_OnKeyPress(e);" />
+		</Page>
+	</UI>
+</SMF>

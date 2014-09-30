@@ -1,0 +1,17 @@
+<PG ID="5086CE34-3FAA-43CE-A750-D10E258C0399" Type="0" UsesTemplatePage="0" TemplatePageID="00000000-0000-0000-0000-100000000001" Nm="Page3" BgClr="ffffff" BgTparent="0" BgPicName="" DefFoc="00000000-0000-0000-0000-100000000001" SldEffect="0" SldEase="0" Blr="0" ShwStatusBar="0" EnableTabBar="0" LockOrientation="0" PageOrientation="0" IsTemplatePage="0" IsSplashScreen="0" ShwNavigationBar="0" ShwActionBar="0" TouchEnabled="1">
+	<EDGE X="0" Y="0" W="640" H="1136" />
+	<POS Pos="3" SMode="32" />
+	<BODY>
+		<PIC ID="2B553C5F-3EB0-43E0-A496-F3C18A3C4F2F" Nm="Image1" Vsb="1" Alpha="100" TouchEnabled="1">
+			<LCT X="0%" Y="0%" W="1000%" H="1000%" Z="0" Anc="3" LockAutoSize="0" LockAutoPosition="0" />
+			<POS Pos="15" SMode="64" EnableZoom="0" EnableScroll="0" EnableCache="0" />
+			<DATA>
+				<PRM Nm="Bind" Val="resources://ObjDefaultImage.png" />
+			</DATA>
+		</PIC>
+	</BODY>
+	<EVENTS>
+		<ONSHOW script="Page3_Self_OnShow(e);" />
+		<ONKEYP script="Page3_Self_OnKeyPress(e);" />
+	</EVENTS>
+</PG>

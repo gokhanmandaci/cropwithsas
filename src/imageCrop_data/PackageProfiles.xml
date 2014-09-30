@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageProfiles>
+	<profile Name="Default" >
+		<android>
+			<folder name="android/drawable" />
+			<folder name="android/drawable-hdpi" />
+			<folder name="android/drawable-mdpi" />
+			<folder name="android/drawable-xhdpi" />
+			<folder name="android/drawable-xxhdpi" />			
+			<compatible-screens>
+				<screen android:screenSize="normal" android:screenDensity="mdpi" />
+			</compatible-screens>
+			<supports-screens 
+				android:smallScreens="false" 
+				android:normalScreens="true"
+				android:largeScreens="false"
+				android:xlargeScreens="false"
+				/>
+		</android>
+	</profile>
+</packageProfiles>
